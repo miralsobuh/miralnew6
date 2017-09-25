@@ -47,7 +47,7 @@
         android:layout_weight="0.46">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/bt1"
             android:textStyle="normal|bold"
             android:textSize="30sp"
             android:textColor="#FF66B2"
@@ -57,7 +57,7 @@
             android:layout_height="70dp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/bt2"
             android:textStyle="normal|bold|italic"
             android:textSize="36sp"
             android:textColor="#0080FF"
