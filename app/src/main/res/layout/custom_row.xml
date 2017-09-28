@@ -17,7 +17,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@drawable/coverphoto"
-        android:id="@+id/imageView"
+        android:id="@+id/imgPic"
         android:layout_weight="1"
         android:contentDescription=""
         tools:ignore="ContentDescription" />
@@ -26,7 +26,7 @@
         android:text="@string/btClick"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:id="@+id/button"
+        android:id="@+id/btnClick"
         android:layout_weight="1"
         tools:ignore="HardcodedText" />
 </LinearLayout>
