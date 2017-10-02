@@ -3,7 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/cakespage"
     tools:context="com.example.hp1.miralnew1.cakes">
 
+    <TextView
+        android:text="Choose which cake you would like to make"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF" />
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvMyCakes" />
 </LinearLayout>
