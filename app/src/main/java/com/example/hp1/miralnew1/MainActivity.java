@@ -8,25 +8,30 @@ import android.widget.AdapterView;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemClickListener{
-   Button bt1,bt2; // 1 lal shakes w 2 lal cakes
 
+   Button btshakes,btcakes; // 1 lal shakes w 2 lal cakes
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    }
+        btshakes=(Button)findViewById(R.id.btshakes);
+        btshakes.setOnClickListener(this);
 
+        btcakes=(Button)findViewById(R.id.btcakes);
+        btcakes.setOnClickListener(this);
+
+    }
 
 
     @Override
     public void onClick(View v) {
-        if (v == bt1) {
+        if (v == btshakes) {
             Intent i = new Intent(this, milkshakes.class);
             startActivity(i);
         }
-        if (v == bt2) {
+        if (v == btcakes) {
             Intent i = new Intent(this, cakes.class);
             startActivity(i);
         }

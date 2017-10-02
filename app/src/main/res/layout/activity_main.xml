@@ -22,7 +22,8 @@
             android:id="@+id/textView"
             android:textColor="#FFFFFF"
             android:textAlignment="center"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
@@ -31,7 +32,8 @@
             android:text="ingredients N instruction"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -43,7 +45,7 @@
         android:layout_weight="0.46">
 
         <Button
-            android:id="@+id/bt1"
+            android:id="@+id/btshakes"
             android:textStyle="normal|bold"
             android:textSize="30sp"
             android:textColor="#FF66B2"
@@ -53,7 +55,7 @@
             android:layout_height="70dp" />
 
         <Button
-            android:id="@+id/bt2"
+            android:id="@+id/btcakes"
             android:textStyle="normal|bold|italic"
             android:textSize="36sp"
             android:textColor="#0080FF"
