@@ -20,7 +20,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".milkshakes" />
         <activity android:name=".cakes" />
-        <activity android:name=".RecipeDetailsActivity"></activity>
+        <activity android:name=".RecipeDetailsActivity" />
+        <activity android:name=".chees_cake"></activity>
     </application>
 
 </manifest>
